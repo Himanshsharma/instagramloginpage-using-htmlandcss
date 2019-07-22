@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instagram</title>
+    <link rel="shortcut icon" type="image/ico" href="./instafav.ico">
+    <link rel="stylesheet" type="text/css" href="insta.css">
+</head>
+
+<body>
+
+    <div id="loading">
+
+    </div>
+
+    <div class="central">
+        <img src="./static.jpg" id="static">
+
+        <div class="signer">
+
+            <div id="upper">
+
+                <div>
+                    <img src="./logo.jpeg" id="logo">
+
+                    <div id="img" class="fade"></div>
+
+                </div>
+                <p id="stxt">Sign up to see photos and videos </br>from your friends.</p>
+                <button class="signup" id="forc" onmousedown="mouseDown()" onmouseup="mouseUp()"><img src="./fb.png"
+                        id="flogo"> Log in with Facebook</button>
+                <div class="OR">
+                    <div class="bar"></div>
+                    <p style="margin-top: 28px; margin-left:30px;">OR</p>
+                    <div class="bar"></div>
+                </div>
+                <div>
+                    <input class="inp" placeholder="Mobile Number or Email">
+                    <input class="inp" placeholder="Full Name">
+                    <input class="inp" placeholder="Username">
+                    <input class="inp" placeholder="Password">
+                    <button class="signup" id="forb" style="margin-top:15px; margin-left:41px;"
+                        onmousedown="mouseDowner()" onmouseup="mouseUpper()">Sign up</button>
+                </div>
+                <p id="ltxt">By signing up, you agree to our</br><strong>Terms , Data Policy</strong> and
+                    <strong>Cookies</br>Policy .</strong></p>
+            </div>
+
+            <div id="lower">
+                <p class="sltext">Have an account?</p>
+                <a href="https://www.instagram.com/accounts/login/" id="logger"> Log in</a>
+            </div>
+            <div></div>
+            <div class="llower">
+                <p id="sltext">Get the app.</p></br>
+                <div class="lllower">
+                    <img src="./apps.png" class="play"><img src="./play.png" class="play" style="margin-left: 10px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="foot">
+        <a href="#" class="linker" style="font-size: 12px;  color: rgb(0, 53, 105); margin-left: 290px;">ABOUT US</div>
+            <a href="#" class="linker" style="font-size: 12px;  color: rgb(0, 53, 105);">SUPPORT</a>
+            <a href="#" class="linker" style="font-size: 12px;  color: rgb(0, 53, 105);">PRESS</a>
+            <a href="#" class="linker" style="font-size: 12px;  color: rgb(0, 53, 105);">API</a>
+            <a href="#" class="linker" style="font-size: 12px;  color: rgb(0, 53, 105);">JOBS</a>
+            <a href="#" class="linker" style="font-size: 12px;  color: rgb(0, 53, 105);">PRIVACY</a>
+            <a href="#" class="linker" style="font-size: 12px;  color: rgb(0, 53, 105);">TERMS</a>
+            <a href="#" class="linker" style="font-size: 12px;  color: rgb(0, 53, 105);">DIRECTORY</a>
+            <a href="#" class="linker" style="font-size: 12px;  color: rgb(0, 53, 105);">PROFILES</a>
+            <a href="#" class="linker" style="font-size: 12px;  color: rgb(0, 53, 105);">HASHTAGS</a>
+            <a href="#" class="linker" style="font-size: 12px;  color: rgb(0, 53, 105);">LANGUAGE</a>
+            <p id="copy">© 2019 INSTAGRAM</p>
+    </footer>
+
+</body>
+
+<script>
+    setTimeout(function () {
+        document.getElementById("loading").style.display = 'none';
+    }, 450);
+
+    function mouseDown() {
+        document.getElementById("forc").style.backgroundColor = "rgb(116,182,245)";
+    }
+
+    function mouseUp() {
+        document.getElementById("forc").style.backgroundColor = "#3897F0";
+        location.href = 'http://m.facebook.com';
+    }
+
+    function mouseDowner() {
+        document.getElementById("forb").style.backgroundColor = "rgb(116,182,245)";
+    }
+
+    function mouseUpper() {
+        document.getElementById("forb").style.backgroundColor = "#3897F0";
+    }
+</script>
+
+</html>

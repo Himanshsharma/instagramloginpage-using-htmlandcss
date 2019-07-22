@@ -1,0 +1,214 @@
+.html, body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: rgb(250,250,250);
+}
+
+.central{
+    display: flex;
+
+}
+
+#static{
+    width: 376px;
+    height: 586px;
+    margin-left: 386px;
+    margin-top: 118px;
+}
+
+.signer{
+    width: 350px;
+    height: 700px;
+    background-color: black;
+    margin-top: 44px;
+    margin-left: 29px;
+    background-color: rgb(250,250,250);
+}
+#upper{
+    height: 558px;
+    width: 350px;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lower{
+    height: 70px;
+    width: 350px;
+    margin-top: 10px;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    height: 56px;
+    width: 180px;
+    margin-top: 30px;
+}
+
+.llower{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#stxt{
+    color: rgb(153, 153, 153);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.signup{
+    background-color: #3897F0;
+    border: 0px;
+    border-radius: 4px;
+    width: 278px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+#flogo{
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.OR{
+    width: 350px;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(147, 146, 146);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bar{
+    margin-top: 35px;
+    margin-left: 40px;
+    height: 2px;
+    width: 92px;
+    background-color: rgba(181, 181, 181, 0.231);
+}
+
+.inp{
+    margin-left: 42px;
+    background-color: rgb(250,250,250);
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 2px;
+    width: 268px;
+    height: 34px;
+    margin-top: 8px;
+    padding-left: 6px;
+}
+
+#ltxt{
+    margin-top: 28px;
+    color: rgb(153, 153, 153);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sltext{
+    margin-right: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+a:link, a:visited{
+    color: rgb(56, 151, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#img{
+    margin-left: -379px;
+    margin-top: 65px;
+    position: absolute;
+    width: 241px;
+    height: 427px;
+}
+
+.play{
+    height: 38px;
+    width: 135px;
+}
+
+.lllower{
+    margin-top: -15px;
+    display: flex;
+}
+
+.foot{
+    width: 100%;
+    height: 190px;
+    display: flex;
+}
+
+.linker{
+    margin-top: 130px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+#copy{
+    color: rgb(153, 153, 153);
+    margin-top:128px;
+    margin-left: 160px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.fade {
+    background: url(./dynamic1.jpg);
+    animation: slide 18s infinite;
+  }
+  
+  @keyframes slide{
+    12.5%{
+        background: url(./dynamic1.jpg);
+      }
+    25%{
+        background: url(./dynamic2.jpg);
+      }
+    37.5%{
+        background: url(./dynamic2.jpg);
+      }
+    50%{
+        background: url(./dynamic3.jpg);
+      }
+    62.5%{
+        background: url(./dynamic3.jpg);
+      }
+    75%{
+        background: url(./dynamic4.jpg);
+      }
+    90%{
+        background: url(./dynamic5.jpg);
+      }
+  }
+
+  #loading{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(250,250,250) url('./PreLoad.png') no-repeat center;
+        z-index: 1000;
+  }
